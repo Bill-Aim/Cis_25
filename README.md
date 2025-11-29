@@ -1,7 +1,4 @@
 # Cis_25
-## Week 5
-### Module_6
-The item class has 2 attribute a name which is string and a quantity which is int. It has 2 methods. The first method is saveToFile() the purpose of this is to write the data into item.txt 
-in the format name,quantity. The second method is loadFromfile, the purpose is to read the data from item.txt and print the quantity and name to the screen. In the main function it create an instace of item call computer. Then it change the computer attribute name,quantity to computer and 3. Then it call saveTofile to save to a file and then load it with loadFromfile to load the file and print it attribute.
-### Module_11
-The product class has 3 private attribute, id in int, name in string and price in double. The construcor is use to initializes the 3 private attributes and then print "constructor call". The destructor  print "destructor called" when object is destroy. The method call printDetails is use to print all the attributes.  In the main function , it create instance of product call calulator, which name = calculator, id = 1234, and price = 10.99. Then it use printDetail to display all the attributes.
+## Week 6
+### Module_7
+A item struct wiith name, and id. Binar_search function which is use to find idex of target id in an array of item. Size in binary search is size of an array. In main function new is use to allocate an array of item with size of 100 call inventory. For each item in inventory assign id 100 to 199, and name them Item_1 to Item_100 then sort them by name. The main function require an input the id the user want to search for. If the id match id in inventory using binary search then it will display name and id of the item. If it doesn't match then it display "Item not found".
