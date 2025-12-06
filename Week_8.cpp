@@ -14,12 +14,12 @@ class Bank_Account {
         void make_purchase(string item, double amount){
             if (balance < amount){
                 cout << "Not enough money in the account to make a purchase" << endl;
-                save_transaction("Failed Purchase " + item + " : ", amount);         
+                save_transaction("Failed Purchase " + item + ": ", amount);         
             }
             else{
                 balance -= amount;
                 cout << "Purchase: " << item << endl;
-                save_transaction("Purchase " + item + " : ", amount);                
+                save_transaction("Purchase " + item + ": ", amount);                
             }
         }
         void deposit(double amount){
@@ -46,4 +46,5 @@ int main(){
     Account.make_purchase("Textbook", 30);
     Account.print_balance();
     return 0;
+
 }
