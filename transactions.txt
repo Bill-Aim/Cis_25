@@ -1,0 +1,6 @@
+Deposit: $100
+Remaining Balance: $100
+Purchase Calculator: $15
+Remaining Balance: $85
+Purchase Textbook: $30
+Remaining Balance: $55
